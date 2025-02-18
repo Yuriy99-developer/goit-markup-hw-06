@@ -1,9 +1,3 @@
-*,
-::after,
-::before {
-    box-sizing: border-box;
-}
-
 body {
     font-family: "Roboto", sans-serif;
     color: #434455;
@@ -12,6 +6,7 @@ body {
 
 img {
     display: block;
+    width: 100%;
 }
 
 h1,
@@ -24,19 +19,24 @@ p {
     margin: 0;
 }
 
-a,
-li {
+a {
     text-decoration: none;
-    list-style-type: none;
 }
 
-ul {
+ul,
+li {
+    list-style: none;
+}
+
+ul,
+ol {
     margin: 0;
     padding-left: 0;
 }
 
 button {
     cursor: pointer;
+    color: currentColor;
 }
 
 .header {
