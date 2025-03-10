@@ -24,8 +24,7 @@
     <header class="header">
         <div class="header-container container">
             <nav class="header-nav">
-                <a class="header-logo current" href="./index.html">Web<span
-                        class="header-logo-highlight">Studio</span></a>
+                <a href="./index.html" class="header-logo">Web<span class="header-logo-highlight">Studio</span></a>
                 <ul class="nav-list">
                     <li class="nav-item">
                         <a class="nav-link current" href="./index.html">Studio</a>
@@ -48,7 +47,7 @@
                     </li>
                 </ul>
             </address>
-            <div class="burger-menu" data-modal-open-menu>
+            <div class="burger-menu" data-modal-open>
                 <div class="burger-container-icon">
                     <button type="button" class="button-burger-menu">
                         <svg class="burger-icon" width="24" height="24">
@@ -62,7 +61,7 @@
     <main>
         <section class="hero">
             <div class="container">
-                <h1 class="hero-title">Effective Solutions for Your Business</h1>
+                <h1 class="hero-title">Effective Solutions <br /> for Your Business</h1>
                 <button type="button" class="hero-button" data-modal-open>Order Service</button>
             </div>
         </section>
@@ -120,11 +119,12 @@
             </div>
         </section>
         <section class="team">
-            <div class="container">
+            <div class="container-ourteam container">
                 <h2 class="team-title">Our Team</h2>
                 <ul class="team-list">
                     <li class="team-member">
-                        <img src="./images/Mark_Guerrero1x.jpg" class="team-photo" width="264" alt="Mark Guerrero">
+                        <img srcset="./images/Mark_Guerrero1x.jpg 1x, ./images/Mark_Guerrero@2x.jpg 2x"
+                            src="./images/Mark_Guerrero1x.jpg" class="team-photo" width="264" alt="Mark Guerrero">
                         <div class="team-info">
                             <h3 class="team-name">Mark Guerrero</h3>
                             <p class="team-role">Product Designer</p>
@@ -158,11 +158,11 @@
                                     </a>
                                 </li>
                             </ul>
-
                         </div>
                     </li>
                     <li class="team-member">
-                        <img src="./images/Tom_Ford1x.jpg" class="team-photo" width="264" alt="Tom Ford">
+                        <img srcset="./images/Tom_Ford1x.jpg 1x, ./images/Tom_Ford@2x.jpg 2x"
+                            src="./images/Tom_Ford1x.jpg" class="team-photo" width="264" alt="Tom Ford">
                         <div class="team-info">
                             <h3 class="team-name">Tom Ford</h3>
                             <p class="team-role">Frontend Developer</p>
@@ -199,7 +199,8 @@
                         </div>
                     </li>
                     <li class="team-member">
-                        <img src="./images/Camila_Garcia1x.jpg" class="team-photo" width="264" alt="Camila Garcia">
+                        <img srcset="./images/Camila_Garcia1x.jpg 1x, ./images/Camila_Garcia@2x.jpg 2x"
+                            src="./images/Camila_Garcia1x.jpg" class="team-photo" width="264" alt="Camila Garcia">
                         <div class="team-info">
                             <h3 class="team-name">Camila Garcia</h3>
                             <p class="team-role">Marketing</p>
@@ -236,7 +237,8 @@
                         </div>
                     </li>
                     <li class="team-member">
-                        <img src="./images/Daniel_Wilson1x.jpg" class="team-photo" width="264" alt="Daniel Wilson">
+                        <img srcset="./images/Daniel_Wilson1x.jpg 1x, ./images/Daniel_Wilson@2x.jpg 2x"
+                            src="./images/Daniel_Wilson1x.jpg" class="team-photo" width="264" alt="Daniel Wilson">
                         <div class="team-info">
                             <h3 class="team-name">Daniel Wilson</h3>
                             <p class="team-role">UI Designer</p>
@@ -408,7 +410,7 @@
                             id="user-email-sub">
                     </label>
                     <button type="submit" class="footer-form-button">Subscribe
-                        <svg class="social-icon footer-icon" width="24" height="24">
+                        <svg class="footer-icon" width="24" height="24">
                             <use href="./images/icons.svg#icon-telegram"></use>
                         </svg>
                     </button>
@@ -416,7 +418,7 @@
             </div>
         </div>
     </footer>
-    <div class="backdrop-menu" data-modal-menu>
+    <div class="backdrop-menu" data-modal-open-menu>
         <div class="modal-menu">
             <button type="button" class="modal-close-menu" data-modal-close-menu>
                 <svg class="button-icon-modal-close" width="8" height="8">
@@ -434,9 +436,9 @@
             <address class="address-menu">
                 <ul class="info-company-menu">
                     <li class="info-item-menu"><a href="mailto:info@devstudio.com"
-                            class="contact-link-menu">info@devstudio.com</a></li>
+                            class="address-info-menu">info@devstudio.com</a></li>
                     <li class="info-item-menu"><a href="tel:+110001111111"
-                            class="contact-link-menu current-menu-phone">+11
+                            class="address-info-menu current-menu-phone">+11
                             (000) 111-11-11</a></li>
                 </ul>
             </address>
